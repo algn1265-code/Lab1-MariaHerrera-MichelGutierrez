@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from app.database import get_connection
 
 app = FastAPI(title="Team Notes API")
@@ -53,8 +53,8 @@ def get_note(note_id: int):
     cursor.close()
     connection.close()
 
-    if note is None:
-        return {"detail": "Note not found"}
+   if note is None:
+    raise HTTPException(status_code=404, detail="Note not found")
 
     return {
         "id": note[0],
