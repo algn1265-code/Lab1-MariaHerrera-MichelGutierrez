@@ -1,6 +1,6 @@
 \# Laboratorio 1 — GitHub, Docker y API REST
 
-
+API REST desarrollada por los estudiantes María Herrera y Michel Gutiérrez.
 
 \## Integrantes
 
