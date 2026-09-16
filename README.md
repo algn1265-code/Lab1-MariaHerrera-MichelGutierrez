@@ -1,6 +1,6 @@
 \# Laboratorio 1 — GitHub, Docker y API REST
 
-
+API desarrollada colaborativamente por el equipo.
 
 \## Integrantes
 
